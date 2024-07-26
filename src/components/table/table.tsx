@@ -22,14 +22,8 @@ import {
 } from "@/components/ui/hover-card";
 import SafetyCard from "./safety-card";
 
-type Equipment = {
-  name: string;
-  items: number;
-  priority: string;
-};
-
 export default function EquipementTable() {
-  const renderEquipmentCell = (equipment: Equipment) => {
+  const renderEquipmentCell = (equipment: any) => {
     if (!equipment || equipment.items === 0) {
       return <span className="text-neutral-400 text-xl">-</span>;
     }
