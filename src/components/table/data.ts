@@ -128,16 +128,16 @@ export const workers = [
 ];
 
 export const equipments = [
-  { name: "Protective gloves", image: "/src/assets/equipment/1.png" },
-  { name: "Safety glasses", image: "/src/assets/equipment/2.png" },
-  { name: "Ear protection", image: "/src/assets/equipment/3.png" },
-  { name: "Mask", image: "/src/assets/equipment/4.png" },
-  { name: "Knee pads", image: "/src/assets/equipment/5.png" },
-  { name: "Safety shoes", image: "/src/assets/equipment/6.png" },
-  { name: "Coverall", image: "/src/assets/equipment/7.png" },
-  { name: "Hi-Vis Jacket", image: "/src/assets/equipment/8.png" },
-  { name: "Safety Harness", image: "/src/assets/equipment/9.png" },
-  { name: "Face shield", image: "/src/assets/equipment/10.png" },
-  { name: "Hard Hat", image: "/src/assets/equipment/11.png" },
-  { name: "Welding helmet", image: "/src/assets/equipment/12.png" },
+  { name: "Protective gloves", image: "/assets/equipment/1.png" },
+  { name: "Safety glasses", image: "/assets/equipment/2.png" },
+  { name: "Ear protection", image: "/assets/equipment/3.png" },
+  { name: "Mask", image: "/assets/equipment/4.png" },
+  { name: "Knee pads", image: "/assets/equipment/5.png" },
+  { name: "Safety shoes", image: "/assets/equipment/6.png" },
+  { name: "Coverall", image: "/assets/equipment/7.png" },
+  { name: "Hi-Vis Jacket", image: "/assets/equipment/8.png" },
+  { name: "Safety Harness", image: "/assets/equipment/9.png" },
+  { name: "Face shield", image: "/assets/equipment/10.png" },
+  { name: "Hard Hat", image: "/assets/equipment/11.png" },
+  { name: "Welding helmet", image: "/assets/equipment/12.png" },
 ];

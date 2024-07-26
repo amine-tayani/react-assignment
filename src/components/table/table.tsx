@@ -99,7 +99,7 @@ export default function EquipementTable() {
               <TableCell className="font-medium flex items-center justify-between w-[240px] border-r">
                 <div className="flex items-center space-x-2">
                   <img
-                    src="/src/assets/photo.png"
+                    src="/assets/photo.png"
                     alt={worker.name}
                     className="w-10 h-10 rounded-full"
                   />
@@ -109,7 +109,7 @@ export default function EquipementTable() {
                   </div>
                 </div>
                 <div>
-                  <img src="/src/assets/img.png" alt="biowanze" />
+                  <img src="/assets/img.png" alt="biowanze" />
                 </div>
               </TableCell>
               {equipments.map((equipment) => (

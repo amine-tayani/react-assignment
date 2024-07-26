@@ -4,7 +4,7 @@ function SafetyCard() {
   return (
     <div className="flex flex-col space-y-2">
       <div className="space-y-1">
-        <img src="src/assets/safety-card-1.png" alt="safety" />
+        <img src="/assets/safety-card-1.png" alt="safety" />
         <div className="flex items-center pt-2 justify-between">
           <span className="text-xs text-gray-500">Comment</span>
           <div className="flex items-center space-x-2">
@@ -22,7 +22,7 @@ function SafetyCard() {
         </div>
       </div>
       <div className="space-y-1">
-        <img src="src/assets/safety-card-2.png" alt="safety-2" />
+        <img src="/assets/safety-card-2.png" alt="safety-2" />
         <div className="flex items-center pt-2 justify-between">
           <span className="text-xs text-gray-500">Comment</span>
           <div className="flex items-center space-x-2">

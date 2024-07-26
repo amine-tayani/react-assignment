@@ -9,7 +9,7 @@ export default function LanguageDropdown() {
       <DropdownMenuTrigger asChild>
         <button className="outline-none">
           <img
-            src="src/assets/language/english.jpg"
+            src="/assets/language/english.jpg"
             alt="Languages"
             className="overflow-hidden"
           />
@@ -21,7 +21,7 @@ export default function LanguageDropdown() {
       >
         <DropdownMenuItem className="flex items-center text-gray-900 outline-none">
           <img
-            src="src/assets/language/english.jpg"
+            src="/assets/language/english.jpg"
             alt="English"
             className="mr-2"
           />
@@ -29,7 +29,7 @@ export default function LanguageDropdown() {
         </DropdownMenuItem>
         <DropdownMenuItem className="flex items-center outline-none hover:text-gray-900">
           <img
-            src="src/assets/language/france.jpg"
+            src="/assets/language/france.jpg"
             alt="French"
             className="mr-2"
           />
@@ -37,7 +37,7 @@ export default function LanguageDropdown() {
         </DropdownMenuItem>
         <DropdownMenuItem className="flex items-center outline-none hover:text-gray-900">
           <img
-            src="src/assets/language/nederlands.jpg"
+            src="/assets/language/nederlands.jpg"
             alt="Dutch"
             className="mr-2"
           />
@@ -45,7 +45,7 @@ export default function LanguageDropdown() {
         </DropdownMenuItem>
         <DropdownMenuItem className="flex items-center outline-none hover:text-gray-900">
           <img
-            src="src/assets/language/spain.jpg"
+            src="/assets/language/spain.jpg"
             alt="Spanish"
             className="mr-2"
           />
@@ -53,7 +53,7 @@ export default function LanguageDropdown() {
         </DropdownMenuItem>
         <DropdownMenuItem className="flex items-center outline-none hover:text-gray-900">
           <img
-            src="src/assets/language/germany.jpg"
+            src="/assets/language/germany.jpg"
             alt="German"
             className="mr-2"
           />

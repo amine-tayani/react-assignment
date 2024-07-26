@@ -16,7 +16,7 @@ export default function UserDropdown() {
       <DropdownMenuTrigger asChild>
         <button className="outline-none flex items-center space-x-2">
           <img
-            src="src/assets/besix.jpg"
+            src="/assets/besix.jpg"
             alt="Languages"
             className="overflow-hidden"
           />

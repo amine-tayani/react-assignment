@@ -1,7 +1,5 @@
 import * as React from "react";
 import * as Tooltip from "@radix-ui/react-tooltip";
-import logo from "../assets/logo.svg";
-import logo2 from "../assets/logo.png";
 import { cn } from "@/lib/utils";
 import { Icons } from "./icons";
 
@@ -28,7 +26,7 @@ export default function Sidebar({ children }: SidebarProps) {
         <nav className="h-full flex flex-col items-center bg-white border-r shadow-sm">
           <div className="p-4 pb-2 flex space-x-4 justify-between items-center">
             <img
-              src={expanded ? logo : logo2}
+              src={expanded ? "/assets/logo.svg" : "/assets/logo.png"}
               className="overflow-hidden transition-all"
             />
             {expanded && (
